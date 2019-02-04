@@ -9,7 +9,7 @@ public class BallSpawner : MonoBehaviour {
 
 	float progress = 0.0f;
 
-	void Spawn()
+	void Spawn()//Spawn the balls!
 	{
 		Transform next = Instantiate(model, transform.position, transform.rotation) as Transform;
 		next.parent = transform;
